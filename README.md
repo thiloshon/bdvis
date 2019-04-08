@@ -1,6 +1,8 @@
 # `bdvis`
 
 [![Build Status](https://travis-ci.org/thiloshon/bdvis.svg?branch=master)](https://travis-ci.org/thiloshon/bdvis)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/thiloshon/bdvis?branch=master&svg=true)](https://ci.appveyor.com/project/thiloshon/bdvis)
+[![Coverage status](https://codecov.io/gh/thiloshon/bdvis/branch/master/graph/badge.svg)](https://codecov.io/github/thiloshon/bdvis?branch=master)
 
 ## About 
 Biodiversity Data Visualizations using R. This package offers a set of

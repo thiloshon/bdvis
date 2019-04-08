@@ -25,5 +25,7 @@ Imports:
     leafletR,
     rgdal
 Suggests:
-    rinat
+    rinat,
+    covr,
+    testthat
 RoxygenNote: 6.1.0
