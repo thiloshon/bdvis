@@ -1,7 +1,17 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
 language: R
+
 sudo: false
+
 install:
   - Rscript -e 'install.packages("devtools", repos = "http://cran.rstudio.com")'
+  
 r_check_args: "--as-cran"
+
+r_packages:
+  - covr
+
+after_success:
+  - Rscript -e 'library(covr); codecov()'
+  
