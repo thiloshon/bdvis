@@ -8,3 +8,4 @@ NEWS
 .gitignore
 .Rhistory
 .RData
+.travis.yml
