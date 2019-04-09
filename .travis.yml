@@ -2,6 +2,6 @@
 
 language: R
 sudo: false
-
-
+install:
+  - Rscript -e 'install.packages("devtools", repos = "http://cran.rstudio.com")'
 r_check_args: "--as-cran"
