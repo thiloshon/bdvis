@@ -1,11 +1,11 @@
 ^codecov\.yml$
 ^appveyor\.yml$
+^cran-comments\.md$
 ^.*\.Rproj$
 ^\.Rproj\.user$
-cran-comments.md
-NEWS
-.gitattributes
-.gitignore
-.Rhistory
-.RData
 ^\.travis\.yml$
+^NEWS$
+^\.gitignore$
+^\.Rhistory$
+^\.RData$
+^\.gitattributes$

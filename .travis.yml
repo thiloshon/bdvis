@@ -3,15 +3,5 @@
 language: R
 sudo: false
 
-r:
-  - oldrel
-  - release
-  - devel
 
 r_check_args: "--as-cran"
-
-r_packages:
-  - covr
-
-after_success:
-  - Rscript -e 'library(covr); codecov()'
