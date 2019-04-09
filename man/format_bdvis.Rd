@@ -24,7 +24,7 @@ be present (see details).}
 \item{quiet}{Optional. Don't show any logging message at all. Defaults to
 FALSE.}
 
-\item{gettaxo}{optional. Call function \link{gettaxo} to build higher level 
+\item{gettaxo}{optional. Call function \link{gettaxo} to build higher level
 taxanony. Defaults to FALSE.}
 
 \item{...}{Optional. If none of the previous is present, the four key
@@ -36,8 +36,8 @@ The provided data frame, with field names changed to suite the functioning
 of further visulization functions.
 }
 \description{
-\code{format_bdvis} renames certain fields in the data frame to make sure the 
-other package functions knows how to use them. This step is highly recommended 
+\code{format_bdvis} renames certain fields in the data frame to make sure the
+other package functions knows how to use them. This step is highly recommended
 for the proper working of the functions.
 }
 \details{
@@ -56,11 +56,11 @@ Currently, three values are supported for this argument: "\code{rgbif}",
 field names. This option is basically a shortcut for those users with
 custom-formatted data.frames who will use the same mapping many times, to
 avoid having to type them each time. In practice, this object is a named list
-with the following four fields: \code{Latitude}, \code{Longitude}, 
-\code{Date_collected} and \code{Scientific_name}. Each element must have a 
-string indicating the name of the column in the data.frame holding the values 
-for that element. If the data.frame doesn't have one or more of these fields, 
-put \code{NA} in that element; otherwise, the function will throw an error. 
+with the following four fields: \code{Latitude}, \code{Longitude},
+\code{Date_collected} and \code{Scientific_name}. Each element must have a
+string indicating the name of the column in the data.frame holding the values
+for that element. If the data.frame doesn't have one or more of these fields,
+put \code{NA} in that element; otherwise, the function will throw an error.
 See the examples section.
 
 If none of the two is provided, the function expects the user to provide the
@@ -70,30 +70,33 @@ See the examples section.
 \examples{
 \dontrun{
 # Using the rgbif package and the source argument
-if (requireNamespace("rinat", quietly=TRUE)) {
- d <- get_inat_obs_project("reptileindia") 
- d <- format_bdvis(d, source="rinat")
+if (requireNamespace("rinat", quietly = TRUE)) {
+  d <- get_inat_obs_project("reptileindia")
+  d <- format_bdvis(d, source = "rinat")
 
- # Using a configuration object, matches 'rinat' schema
- conf <- list(Latitude="latitude",
-              Longitude="longitude",
-              Date_collected="Observed.on",
-              Scientific_name="Scientific.name")
- d <- format_bdvis(d, config=conf)
+  # Using a configuration object, matches 'rinat' schema
+  conf <- list(
+    Latitude = "latitude",
+    Longitude = "longitude",
+    Date_collected = "Observed.on",
+    Scientific_name = "Scientific.name"
+  )
+  d <- format_bdvis(d, config = conf)
 
- # Passing individual parameters, all optional
- d <- format_bdvis(d,
-                Latitude="lat",
-                Longitude="lng",
-                Date_collected="ObservedOn",
-                Scientific_name="sciname")
+  # Passing individual parameters, all optional
+  d <- format_bdvis(d,
+    Latitude = "lat",
+    Longitude = "lng",
+    Date_collected = "ObservedOn",
+    Scientific_name = "sciname"
+  )
 }
 }
 
 }
 \seealso{
-Other Data preparation functions: \code{\link{bdsummary}},
-  \code{\link{fixstr}}, \code{\link{getcellid}},
-  \code{\link{gettaxo}}
+Other Data preparation functions: \code{\link{bd_summary}},
+  \code{\link{fix_str}}, \code{\link{get_cell_id}},
+  \code{\link{get_taxo}}
 }
 \concept{Data preparation functions}

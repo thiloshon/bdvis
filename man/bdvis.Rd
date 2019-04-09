@@ -6,15 +6,15 @@
 \alias{bdvis-package}
 \title{bdvis: Biodiversity Data Visualizations}
 \description{
-Biodiversity data visualizations using R would be helpful to understand 
-completeness of biodiversity inventory, extent of geographical, taxonomic 
+Biodiversity data visualizations using R would be helpful to understand
+completeness of biodiversity inventory, extent of geographical, taxonomic
 and temporal coverage, gaps and biases in data.
 }
 \section{Data preparation}{
 
-\itemize{  
+\itemize{
 \item \link{bdsummary}
-\item \link{fixstr} Deprecated 
+\item \link{fixstr} Deprecated
 \item \link{format_bdvis}
 \item \link{getcellid}
 \item \link{gettaxo}
@@ -23,7 +23,7 @@ and temporal coverage, gaps and biases in data.
 
 \section{Spatial visualizations}{
 
-\itemize{ 
+\itemize{
 \item \link{bdwebmap}
 \item \link{mapgrid}
 }
@@ -31,7 +31,7 @@ and temporal coverage, gaps and biases in data.
 
 \section{Temporal Visualizations}{
 
-\itemize{  
+\itemize{
 \item \link{bdcalendarheat}
 \item \link{chronohorogram}
 \item \link{tempolar}
@@ -40,14 +40,14 @@ and temporal coverage, gaps and biases in data.
 
 \section{Taxonomic Visualizations}{
 
-\itemize{  
+\itemize{
 \item \link{taxotree}
 }
 }
 
 \section{Miscellaneous functions}{
 
-\itemize{  
+\itemize{
 \item \link{bdcomplete}
 \item \link{distrigraph}
 }
@@ -55,9 +55,9 @@ and temporal coverage, gaps and biases in data.
 
 \section{Citation}{
 
-\itemize{  
-\item Barve, V., & Otegui, J. (2016). bdvis: Biodiversity data 
-visualizations (R package V 0.2). Retrieved from 
+\itemize{
+\item Barve, V., & Otegui, J. (2016). bdvis: Biodiversity data
+visualizations (R package V 0.2). Retrieved from
 https://cran.r-project.org/web/packages/bdvis/index.html
 }
 }

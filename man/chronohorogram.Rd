@@ -24,7 +24,7 @@ character vector. Default is blue (less) - red (more) gradient
 }
 \description{
 Draws a detailed temporal representation (also known as chronohorogram) of the
-dates in the provided data set. For more information on the chronohorogram, 
+dates in the provided data set. For more information on the chronohorogram,
 please see the \code{References} section.
 }
 \examples{
@@ -34,11 +34,11 @@ chronohorogram(inat)
 }
 \references{
 Arino, A. H., & Otegui, J. (2008). Sampling biodiversity sampling.
- In Proceedings of TDWG (pp. 77-78). Retrieved from 
+ In Proceedings of TDWG (pp. 77-78). Retrieved from
  http://www.tdwg.org/fileadmin/2008conference/documents/Proceedings2008.pdf#page=77
 }
 \seealso{
-Other Temporal visualizations: \code{\link{bdcalendarheat}},
+Other Temporal visualizations: \code{\link{bd_calendarheat}},
   \code{\link{tempolar}}
 }
 \concept{Temporal visualizations}
