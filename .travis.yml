@@ -11,22 +11,13 @@ r_check_args: "--as-cran"
 
 r_packages:
   - covr
-  - maps
-  - plotrix
-  - sqldf
-  - plyr
-  - taxize
-  - treemap
-  - ggplot2
-  - lattice
-  - chron
-  - leafletR
-  - rgdal
-  - rinat
-  - covr
-  - testthat
   
-
 after_success:
   - Rscript -e 'library(covr); codecov()'
+  
+env:
+ global:
+   - _R_CHECK_FORCE_SUGGESTS_: false
+
+
   
