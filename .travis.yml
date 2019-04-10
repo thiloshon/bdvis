@@ -4,7 +4,11 @@ language: R
 
 sudo: false
   
-
+addons:
+  apt:
+    packages:
+      - libgdal-dev
+      - libproj-dev
 
 
 
