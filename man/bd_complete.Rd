@@ -30,7 +30,7 @@ species richness.
 }
 \details{
 After dividing the extent of the dataset in cells (via the
-\code{\link{getcellid}} function), the function calculates the Chao2 estimator
+\code{\link{get_cell_id}} function), the function calculates the Chao2 estimator
 of species richness. Given the nature of the calculations, a minimum number of
 records must be present on each cell to properly compute the index. If there
 are too few records in the cells, the function is unable to finish, and it
@@ -38,7 +38,7 @@ throws an error.
 
 This function produces a plot of number of species versus completeness index to
 give an idea of output. The data frame  returned can be used to visualize the
-completeness of the data using \code{\link{mapgrid}} function with ptype as
+completeness of the data using \code{\link{map_grid}} function with ptype as
 "complete".
 }
 \examples{
@@ -47,5 +47,5 @@ bd_complete(inat)
 }
 }
 \seealso{
-\code{\link{getcellid}}
+\code{\link{get_cell_id}}
 }

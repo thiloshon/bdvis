@@ -13,7 +13,7 @@ get_cell_id(indf)
 Calculate and assign a GBIF-style degree cell id and centi-degree (0.1
 degrees, dividing a 1 degree cell into 100 centi-degree cells) cell id to each
 record. This is a necessary previous step for some functions like
-\code{\link{mapgrid}}
+\code{\link{map_grid}}
 }
 \examples{
 \dontrun{

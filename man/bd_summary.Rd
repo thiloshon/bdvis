@@ -21,7 +21,7 @@ records), temporal coverage (minimum and maximum dates), taxonomic coverage
 division of covered area in degree cells) of the records.
 
 To update spatial grid data to dataset, please use \link{format_bdvis} or
-\link{getcellid} function before using bdsummary.
+\link{get_cell_id} function before using bdsummary.
 }
 \examples{
 \dontrun{

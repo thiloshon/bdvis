@@ -24,7 +24,7 @@ be present (see details).}
 \item{quiet}{Optional. Don't show any logging message at all. Defaults to
 FALSE.}
 
-\item{gettaxo}{optional. Call function \link{gettaxo} to build higher level
+\item{gettaxo}{optional. Call function \link{get_taxo} to build higher level
 taxanony. Defaults to FALSE.}
 
 \item{...}{Optional. If none of the previous is present, the four key

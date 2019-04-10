@@ -42,7 +42,7 @@
 #'   be present (see details).
 #' @param quiet Optional. Don't show any logging message at all. Defaults to
 #'   FALSE.
-#' @param gettaxo optional. Call function \link{gettaxo} to build higher level
+#' @param gettaxo optional. Call function \link{get_taxo} to build higher level
 #'   taxanony. Defaults to FALSE.
 #' @param ... Optional. If none of the previous is present, the four key
 #'   arguments (\code{Latitude}, \code{Longitude},

@@ -13,26 +13,26 @@ and temporal coverage, gaps and biases in data.
 \section{Data preparation}{
 
 \itemize{
-\item \link{bdsummary}
-\item \link{fixstr} Deprecated
+\item \link{bd_summary}
+\item \link{fix_str} Deprecated
 \item \link{format_bdvis}
-\item \link{getcellid}
-\item \link{gettaxo}
+\item \link{get_cell_id}
+\item \link{get_taxo}
 }
 }
 
 \section{Spatial visualizations}{
 
 \itemize{
-\item \link{bdwebmap}
-\item \link{mapgrid}
+\item \link{bd_webmap}
+\item \link{map_grid}
 }
 }
 
 \section{Temporal Visualizations}{
 
 \itemize{
-\item \link{bdcalendarheat}
+\item \link{bd_calendarheat}
 \item \link{chronohorogram}
 \item \link{tempolar}
 }
@@ -41,15 +41,15 @@ and temporal coverage, gaps and biases in data.
 \section{Taxonomic Visualizations}{
 
 \itemize{
-\item \link{taxotree}
+\item \link{taxo_tree}
 }
 }
 
 \section{Miscellaneous functions}{
 
 \itemize{
-\item \link{bdcomplete}
-\item \link{distrigraph}
+\item \link{bd_complete}
+\item \link{distri_graph}
 }
 }
 
